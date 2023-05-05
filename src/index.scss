@@ -1,0 +1,51 @@
+@import '~bootstrap/scss/bootstrap.scss';
+html, body, #app, #app>div, #root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.text-primary{
+  color: #5790d2;
+}
+
+.pagination_select {
+  display: none !important;
+}
+
+.item_icon_p{
+  margin-top: -8px;
+}
+
+::-webkit-scrollbar {
+  width: 8px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #c7c7c7;
+  border-radius: 10px !important;
+}
+
+.t_comment{
+  font-size: 12px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5790d2;
+  border-radius: 10px !important;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.link{
+  font-size: 12px;
+}
+.comment-box{
+  overflow: auto;
+  height: 0;
+}
